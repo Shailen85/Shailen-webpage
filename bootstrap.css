@@ -1,0 +1,64 @@
+/* entire box */
+.accordion{
+    background-color: black;
+}
+/* body  */
+.accordion-item{
+    border-color: black;
+    border-bottom-color: #0c18bd;
+    width: 50%;
+    margin-left: 25%;
+    background-color: black;
+}
+/* button */
+.accordion-button{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    color: antiquewhite;
+}
+/* button open */
+#accordionExample .accordion-item .accordion-button:not(.collapsed) {
+    background-color:black; 
+    color: #0c18bd; 
+}
+/* button active */
+#accordionExample .accordion-button{
+    box-shadow: none;
+}
+#date{
+    color: grey;
+    font-size:80%;
+    position:relative;
+    left: 2%;
+}
+
+/* Career page CV link style------------------------------------------------- */
+#cvlink:hover{
+    color: rgb(240, 12, 69);
+    font-size: 80%;
+}
+#cvlink{
+    border-bottom: 2px solid #0a1d69;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: skyblue;
+    font-family: Monospace, sans-serif;
+    font-size: 60%;
+    text-align: right;
+    background-image: url("Photos/icons/cvpic.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 100% 50%;
+    position:sticky;
+    left: 25%; 
+}
+.cv{
+    height: 300px;
+    margin-top: 2%;
+    background-image: url("Photos/menupics/choice.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+}
