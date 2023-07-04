@@ -1,0 +1,70 @@
+#outbox{
+    background-image: url("Photos/pagegif/brain.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+#menubox{
+    border-right: 2px solid #060f94;
+    padding-right: 2%;
+    width: 25%;
+    height: 100%;
+    margin-left: 25%;
+    position: relative;
+    float: left;
+}
+button{
+    background-color: transparent;
+    font-family: Monospace, sans-serif;
+    font-size: medium;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    border: rgb(139, 17, 37);
+}
+button.active {
+    color: blue;
+    border-bottom: 1px solid rgb(159, 167, 49);
+    #appbutton1{
+        float:right;
+    }
+}
+button.inactive {
+    color:rgb(139, 96, 40);
+    border-bottom: 1px solid rgb(159, 167, 49);
+    #appbutton1{
+        float:none
+    }
+}
+#answerbox{
+    width: 40%;
+    margin-right: 5%;
+    position: relative;
+    float: right;
+}
+#displaybox{
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+#playlink{
+    color: red;
+    margin-left: 10%;
+}
+#appinfo{
+    border-bottom: 1px solid #060f94;
+    width: 60%;
+    color: rgb(159, 167, 49);
+    text-align: justify;
+    position: relative;
+    left: 5%;
+    background-color: transparent;
+    font-family: Monospace, sans-serif;
+    font-size: 70%;
+    padding: 2%;
+    word-wrap: break-word;
+}

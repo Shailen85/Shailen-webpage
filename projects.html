@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link href="projects.css" rel="stylesheet">
+        <script src="projects.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <div id="portfolio">
+        </div>
+        <div id="menu">
+            <a id="menu-select" href="index.html">Home</a>
+            <a id="menu-select" href="career.html">Career</a>
+            <a id="menu-select" href="Skills.html">Skills</a>
+            <a id="menu-select" href="projects.html" style="color:greenyellow;">Projects</a>
+        </div>
+        <div>
+            <img id="intropic" src="Photos/menupics/stars1.jpg" alt="heading picture">
+        </div>
+        <h2 id="header" class="center"><em id="title">Projects and Learning</em></h2>
+        <div id="outbox">
+          <div id="menubox">
+            <h2>
+              <button id="button1" onclick="displayapp('box1')" class="inactive">Magic Dragon <em id="appbutton1">></em></button>
+            </h2>
+            <h2>
+              <button id="button2" onclick="displayapp('box2')" class="inactive">Artificial Intelligence <em id="appbutton1">></em></button>
+            </h2>
+            <h2>
+              <button id="button3" onclick="displayapp('box3')" class="inactive">Natron <em id="appbutton1">></em></button>
+            </h2>
+            <h2>
+              <button id="button4" onclick="displayapp('box4')" class="inactive">Cybersecurity <em id="appbutton1">></em></button>
+            </h2>
+          </div>
+          <div id="answerbox">
+            <div id="box1" class="displaybox" style="display: none;">
+              <img style="width: 50%;" src="Photos/app/magicd.gif" alt="logo">
+              <p id="appinfo">I created simple demostration app called Magic Dragon. I used JavaScript to recreate the Magic8Ball toy. Ask a yes or no question and it will give you a random answer. I also used Natrion a graphic design and video editor application to create a fire breathing dragon to display the answer. Click on the play button to start app ><a id="playlink" href="magicdragon.html">PLAY</a></p>
+            </div>
+            <div id="box2" class="displaybox" style="display: none;">
+              <img style="width: 18%;" src="Photos/icons/ailogo.png" alt="logo">
+              <p id="appinfo">Aspiring AI: Enthusiastic about gearing up to dive into the captivating world of Artificial Intelligence. Motivated by the transformative potential of AI, I am eager to learn and apply AI algorithms, machine learning techniques, and deep learning frameworks. Committed to gaining expertise in areas such as computer vision, natural language processing, and predictive analytics. Excited about exploring innovative AI applications and contributing to advancements in the field. Dedicated to continuous learning, hands-on projects, and collaboration with fellow AI enthusiasts to push the boundaries of AI technology and its impact on various industries.</p>
+            </div>
+            <div id="box3" class="displaybox" style="display: none;">
+              <img style="width: 14%;" src="Photos/icons/nat.jpg" alt="logo">
+              <p id="appinfo">Natron: Proficient user of Natron, a powerful open-source compositing software. Skilled in utilizing Natron's robust toolset to create high-quality visual effects and composites for film, television, and other media projects. Experienced in performing tasks such as rotoscoping, keying, color grading, and tracking. Proficient in integrating 2D and 3D elements seamlessly and applying various effects to enhance the visual appeal. Adept at working within a node-based workflow and delivering exceptional results with attention to detail. Committed to continuously expanding knowledge and skills in Natron to achieve innovative and captivating visual compositions.</p>
+            </div>
+            <div id="box4" class="displaybox" style="display: none;">
+              <img style="width: 50%;" src="Photos/icons/cyber.png" alt="logo">
+              <p id="appinfo">Aspiring Cybersecurity Professional: Eager and determined individual preparing to embark on a rewarding journey in the field of cybersecurity.  </p>
+            </div>
+          </div>
+        </div>
+        <div id="footer">
+          <h3 class="center">Done by: Shailen</h3>
+          <div class="center"><a id="emaillink" href="mailto:sshailenb@gmail.com">email me: sshailenb@gmail.com</a></div>
+      </div>
+    </body>
+</html>
+
